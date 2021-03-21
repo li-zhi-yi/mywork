@@ -1,0 +1,13 @@
+$bgColor:#00BCD4;
+$bgWhite:#FFFFFF;
+$bgGray:#F5F5F5;
+@mixin elli{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin a-white{
+    color:white;
+    text-decoration:none;
+}
